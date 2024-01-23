@@ -31,6 +31,11 @@ body{
     height: 100px;
 }
 
+.header-text{
+    text-decoration: none;
+    color: white;
+}
+
 .title-images-container {
     display: flex;
     align-items: center;
@@ -140,6 +145,13 @@ body{
 
 ul{
     list-style-type: none;
+}
+
+.navbar-links{
+    font-family: ubuntu-bold;
+    color: white;
+    text-decoration: none;
+
 }
 
 
