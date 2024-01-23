@@ -1,0 +1,164 @@
+body{
+    margin:0;
+}
+
+#page {
+    display: grid;
+    height: 250px;
+
+    grid-template-areas: 
+        "header header"
+        "navigation main"
+        "navigation footer";
+
+    justify-items: left;
+
+    font-family: ubunturegular;
+    background-color: #282b30;
+}
+
+#page > page-title {
+    grid-area: header;
+    grid-column-end: span;
+    justify-self: center;
+    font-size: xx-large;
+    font-family: ubuntu-bold;
+    font-style: bold;
+    background-color: #282b30;
+    color: white;
+    padding: none;
+
+    height: 100px;
+}
+
+.title-images-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.title-image {
+    height: 100%;
+    margin: 0 150px; /* Add margin between title images if needed */
+}
+
+#page > page-content{
+    grid-area: main;
+    padding: 1em;
+    
+    background-color: #424549;
+    color: white;
+    font-size: large;
+
+}
+
+#page > nav-bar{
+    grid-area: navigation;
+    padding-right: 2em;
+
+    background-color: #282b30;
+    color: white;
+    font-size:large;
+    line-height: 1.45em;
+
+}
+
+#page > footer{
+    grid-area: footer;
+    padding: 1em;
+    width: 100%;
+
+    background-color: #424549;
+    color: white;
+    font-size: small;
+}
+
+.nav-purple-text{
+    color: #7289da;
+    list-style-type: none;
+}
+
+.header-purple{
+    color: #7289da;
+    font-family: ubuntu-bold;
+    margin-top:2em;
+}
+
+#home-screen-images {
+    display: grid;
+    grid-template-areas:
+        "image1 image2 image3 image4"
+        "image5 image6 image7 image8";
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+#home-screen-images > homepage-image1 {
+    display: grid;
+    grid-template-areas:
+        "nested-image1 nested-image2"
+        "nested-image3 nested-image4";
+    grid-gap: 10px;
+}
+
+#home-screen-images > homepage-image1 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image2 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image3 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image4 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image5 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image6 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image7 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image8 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image9 > img {
+    width: 75%;
+}
+#home-screen-images > homepage-image10 > img {
+    width: 65%;
+}
+#home-screen-images > homepage-image11 > img {
+    width: 75%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu-r-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url('fonts/ubuntu-b-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
