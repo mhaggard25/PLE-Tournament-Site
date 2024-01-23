@@ -7,3 +7,6 @@ This was created to streamline the process of voting on matches and who we belie
 # Screenshots
 
 ![First screenshot](image.png)
+
+# Functional State
+01.22.2024 - Homepage is visually built, but not very responsive. Navbar on the left doesn't function at all. There are no links in the site currently.
