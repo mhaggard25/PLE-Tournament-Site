@@ -10,6 +10,7 @@ body{
         "navigation footer";
 
     justify-items: left;
+    grid-template-columns: 0.15fr .85fr;
 
     font-family: ubunturegular;
     background-color: #282b30;
@@ -54,16 +55,18 @@ body{
     color: white;
     font-size: large;
 
+    width:100%;
+
 }
 
 #page > nav-bar{
     grid-area: navigation;
-    padding-right: 2em;
 
     background-color: #282b30;
     color: white;
     font-size:large;
     line-height: 1.45em;
+    
 
 }
 
