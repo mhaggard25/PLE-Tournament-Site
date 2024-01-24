@@ -5,9 +5,9 @@ body{
 #page {
     display: grid;
     grid-template-areas: 
-        "header header"
-        "navigation main"
-        "navigation footer";
+        "header header header"
+        "navigation main image"
+        "navigation footer .";
 
     justify-items: left;
     grid-template-columns: 0.15fr .85fr;
@@ -49,16 +49,26 @@ body{
 
 #page > page-content{
     grid-area: main;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     
     background-color: #424549;
     color: white;
     font-size: large;
 
-    width:100%;
+    width:98%;
 
 }
 
+#page > right-image{
+    grid-area:image;
+    background-color: #424549;
+    width:100%;
+    position: absolute;
+    left:1200px;
+    top: 400px;
+
+}
 #page > nav-bar{
     grid-area: navigation;
     padding-right: 1em;
