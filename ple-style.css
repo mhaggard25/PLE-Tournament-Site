@@ -61,7 +61,7 @@ body{
 
 #page > nav-bar{
     grid-area: navigation;
-
+    padding-right: 1em;
     background-color: #282b30;
     color: white;
     font-size:large;
