@@ -8,5 +8,6 @@ This was created to streamline the process of voting on matches and who we belie
 
 ![First screenshot](image.png)
 
-# Functional State
+# Changelog
 01.22.2024 - Homepage is visually built, but not very responsive. Navbar on the left doesn't function at all. There are no links in the site currently.
+02.10.2024 - Links are correct. Page templates are pretty much in place. Image sizes are okay. Navbar on index page is not sized well. More responsive than before.
